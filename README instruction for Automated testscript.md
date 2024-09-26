@@ -41,9 +41,13 @@
 - Click on Services and find the frontend service (run minikube tunnel command if an IP is not assigned to the frontend)
 - Click on External endpoint and Verify that accessing the frontend URL displays the greeting message fetched from the backend. 
 
-## Verifying API endpoints
-- Use post forwarding to forward a port local machine to the backend service:                                           
-  kubectl port-forward service/backend-service 3000:3000
+## Port Forwarding to the Backend Service
+
+Use port forwarding to forward a port from your local machine to the backend service. Run the following command:
+
+```bash
+kubectl port-forward service/backend-service 3000:3000
+- This command will allow you to access the backend service on your local machine at http://localhost:3000.
 - Open Postman and Add a Get request for the backend API using URL http://localhost:3000/greet
 - Send the request and Verify JSON response from the backend                                                   
 - Match the message displayed on the frontend to check if the integration is successfull     

@@ -15,7 +15,7 @@
      docker --version  # To check the installed Docker version
      ```
      
-2. ## Install Minikube
+2. **Install Minikube**:
 
 - Start Minikube with the following commands using the command prompt:
 
@@ -31,13 +31,15 @@
   ```bash
   git clone <repository-link>
 
-- Navigate into the cloned repository folder using
+- Navigate into the cloned repository folder using:
+
+  ```bash
   cd <repository-folder>
 
--In the Minikube dashboard, go to Workloads > Deployments.
--Click on the + button and select Create from file. Upload your frontend and backend deployment YAML files Monitor the deployment status in the dashboard to ensure both services are running.    
--Click on Services and find the frontend service (run minikube tunnel command if an IP is not assigned to the frontend)
--Click on External endpoint and Verify that accessing the frontend URL displays the greeting message fetched from the backend. 
+- In the Minikube dashboard, go to Workloads > Deployments.
+- Click on the + button and select Create from file. Upload your frontend and backend deployment YAML files Monitor the deployment status in the dashboard to ensure both services are running.    
+- Click on Services and find the frontend service (run minikube tunnel command if an IP is not assigned to the frontend)
+- Click on External endpoint and Verify that accessing the frontend URL displays the greeting message fetched from the backend. 
 
 ## Verifying API endpoints
 - Use post forwarding to forward a port local machine to the backend service:                                           

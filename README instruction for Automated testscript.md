@@ -48,10 +48,7 @@ Use port forwarding to forward a port from your local machine to the backend ser
 ```bash
 kubectl port-forward service/backend-service 3000:3000
 
-This command will allow you to access the backend service on your local machine at http://localhost:3000.
-
-Open Postman and add a GET request for the backend API using the URL http://localhost:3000/greet.
-
-Send the request and verify the JSON response from the backend.
-
-Match the message displayed on the frontend to check if the integration is successful.
+- This command will allow you to access the backend service on your local machine at http://localhost:3000.
+- Open Postman and add a GET request for the backend API using the URL http://localhost:3000/greet.
+- Send the request and verify the JSON response from the backend.
+- Match the message displayed on the frontend to check if the integration is successful.

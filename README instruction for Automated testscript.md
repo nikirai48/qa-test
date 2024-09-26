@@ -7,9 +7,13 @@
 - [Postman](https://www.postman.com/downloads/)
 
 ## Installation
+
 1. **Install Docker**:
-   - Verify the installation by running the command on cmd prompt
-     -docker --version
+   - Verify the installation by running the following command in the command prompt:
+  
+     ```bash
+     docker --version  # To check the installed Docker version
+     ```
      
 2. ## Install Minikube
 
@@ -21,10 +25,15 @@
   minikube dashboard  # To start the Minikube dashboard
 
 ## Deploying Services on Kubernetes
-- Clone the repository containing your deployment YAML files
+
+- Clone the repository containing your deployment YAML files:
+  
+  ```bash
   git clone <repository-link>
+
 - Navigate into the cloned repository folder using
   cd <repository-folder>
+
 -In the Minikube dashboard, go to Workloads > Deployments.
 -Click on the + button and select Create from file. Upload your frontend and backend deployment YAML files Monitor the deployment status in the dashboard to ensure both services are running.    
 -Click on Services and find the frontend service (run minikube tunnel command if an IP is not assigned to the frontend)

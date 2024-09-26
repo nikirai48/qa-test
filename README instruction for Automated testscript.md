@@ -11,12 +11,14 @@
    - Verify the installation by running the command on cmd prompt
      -docker --version
      
-2. **Install Minikube**:
-   - Start Minikube with the following command using cmd prompt
-      -minikube start (this will install minikube)
-      -minikube status (to check for the status)
-      -minikube dashboard (to start the minikube dashboard)
+2. ## Install Minikube
 
+- Start Minikube with the following commands using the command prompt:
+
+  ```bash
+  minikube start  # This will install Minikube
+  minikube status  # To check the status
+  minikube dashboard  # To start the Minikube dashboard
 
 ## Deploying Services on Kubernetes
 - Clone the repository containing your deployment YAML files

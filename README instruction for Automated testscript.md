@@ -9,13 +9,13 @@
 ## Installation
 1. **Install Docker**:
    - Verify the installation by running the command on cmd prompt
-     docker --version
+     -docker --version
      
 2. **Install Minikube**:
    - Start Minikube with the following command using cmd prompt
-     minikube start (this will install minikube)
-     minikube status (to check for the status)
-     minikube dashboard (to start the minikube dashboard)
+      -minikube start (this will install minikube)
+      -minikube status (to check for the status)
+      -minikube dashboard (to start the minikube dashboard)
 
 
 ## Deploying Services on Kubernetes

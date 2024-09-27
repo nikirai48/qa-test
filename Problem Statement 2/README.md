@@ -23,7 +23,7 @@ If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), th
 
 ### Installation
 To install the required library, run the following command:
-```bash
+   ```bash
    pip install psutil
 
 ## Application health checker

@@ -32,7 +32,7 @@ pip install psutil
 Run the script VS Code:
 
 ```bash
-python system_health_monitor.py
+python healthmonitor.py
 ```
 
 ## Application Health Checker
@@ -57,6 +57,6 @@ pip install requests
 Run the script in VS code, providing the URL of the application:
 
 ```bash
-python application_health_checker.py 
+python Statuscode.py 
 ```
 

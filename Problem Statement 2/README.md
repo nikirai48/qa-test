@@ -23,22 +23,40 @@ If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), th
 
 ### Installation
 To install the required library, run the following command:
-   ```bash
-   pip install psutil
 
-## Application health checker
+```bash
+pip install psutil
+```
+
+### Usage
+Run the script VS Code:
+
+```bash
+python system_health_monitor.py
+```
+
+## Application Health Checker
 
 ### Description
 This script checks the uptime of a specified application by assessing its HTTP status codes. It determines if the application is:
-- **Up: Functioning correctly**
-- **Down: Unavailable or not responding**
+- **Up:** Functioning correctly
+- **Down:** Unavailable or not responding
 
 ### Requirements
 - Python 3.x
-- requests library
+- `requests` library
 
 ### Installation
 To install the required library, run the following command:
+
 ```bash
 pip install requests
-  
+```
+
+### Usage
+Run the script in VS code, providing the URL of the application:
+
+```bash
+python application_health_checker.py 
+```
+

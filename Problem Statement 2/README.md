@@ -1,6 +1,10 @@
+# Pre-requisites
+- Python
+- Visual Studio code
+
 # Table of Contents
-1. [System Health Monitoring Script]
-2. [Application Health Checker]
+1. System Health Monitoring Script
+2. Application Health Checker
   
 ## System Health Monitoring Script
 
@@ -20,7 +24,7 @@ If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), th
 ### Installation
 To install the required library, run the following command:
 ```bash
-pip install psutil
+   pip install psutil
 
 ## Application health checker
 
